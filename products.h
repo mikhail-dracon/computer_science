@@ -15,6 +15,14 @@ class milk : public products {
     void skisnet();
     void doit();
 };
+class curd : public milk{
+    private:
+        int fat_percentage;
+    public:
+        curd();
+        void degrease();
+
+};
 class water : public products {
     protected:
     int volume;
@@ -35,5 +43,20 @@ class pepsi : public products {
     public:
     pepsi();
     void vzboltat();
+};
+class fruits:public products{
+    protected:
+        float fructose;
+        float juiciness;
+    public:
+        fruits();
+        void squeeze_juice();
+        void dry();
+};
+class apple:public products{
+    private:
+        char color;
+    public:
+        apple();
 };
 
