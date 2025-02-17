@@ -1,4 +1,4 @@
-#include "products.hpp"
+#include "products.h"
 #include <iostream>
 
 products::products() {
