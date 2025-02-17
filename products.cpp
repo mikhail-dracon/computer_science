@@ -24,6 +24,7 @@ void milk::skisnet() {
 curd::curd(){
     fat_percentage=5;
     lactoza +=20;
+    fat_percentage = 25;
 }
 void curd::degrease(){
     lactoza -= 25;

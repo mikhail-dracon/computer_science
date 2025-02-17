@@ -1,7 +1,9 @@
-#include "products.h"
+
 #include <iostream>
+#include "products.h"
 
 using namespace std;
+
 int main() {
     pepsi cola;
     cola.buy();
