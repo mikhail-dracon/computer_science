@@ -17,7 +17,13 @@ void milk::doit() {
     lactoza+=5;
 }
 void milk::skisnet() {
-    std::cout << "ну и вонь";
+    std::cout << "Smells like ...";
+}
+curd::curd(){
+    lactoza +=20;
+}
+void curd::degrease(){
+    lactoza -= 25;
 }
 water::water() {
     volume = 100;
@@ -37,4 +43,17 @@ pepsi::pepsi() {
 void pepsi::vzboltat() {
     gasi+=10;
 }
-
+fruits::fruits(){
+    fructose = 100;
+    juiciness = 100;
+}
+void fruits::squeeze_juice(){
+    fructose*=0.1;
+    juiciness*=0.1;
+}
+void fruits::dry(){
+    juiciness = 0;
+}
+apple::apple(){
+    color = 'r';
+}

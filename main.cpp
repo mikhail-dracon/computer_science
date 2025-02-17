@@ -1,4 +1,4 @@
-#include "products.h"
+#include "products.cpp"
 #include <iostream>
 
 using namespace std;
