@@ -1,6 +1,8 @@
 #include "products.h"
 #include <iostream>
 
+using namespace std;
+
 products::products() {
     quantity=10;
 }
@@ -20,6 +22,7 @@ void milk::skisnet() {
     std::cout << "Smells like ...";
 }
 curd::curd(){
+    fat_percentage=5;
     lactoza +=20;
     fat_percentage = 25;
 }
