@@ -1,4 +1,4 @@
-#include "products.h"
+#include "products.hpp"
 #include <iostream>
 
 products::products() {
@@ -21,6 +21,7 @@ void milk::skisnet() {
 }
 curd::curd(){
     lactoza +=20;
+    fat_percentage = 25;
 }
 void curd::degrease(){
     lactoza -= 25;
